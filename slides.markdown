@@ -28,7 +28,7 @@ More traditional methods of looping are available but are not idiomatic Ruby.
 
 <%= code 'examples/four.rb' %>
 
-# Blocks as objects
+# Blocks are objects too
 
 <%= code 'examples/three-four.rb' %>
 
