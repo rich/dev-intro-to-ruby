@@ -1,0 +1,8 @@
+This slideshow is build using the slideshow gem:
+
+gem install ultraviolet
+gem install slideshow
+
+The to build the actual slideshow do:
+
+slideshow slides.markdown
