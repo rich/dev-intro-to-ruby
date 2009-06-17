@@ -58,6 +58,6 @@ A basic implementation of attr\_accessor is trival.
 
 <%= code 'examples/ten.rb' %>
 
-# Metaprogramming II
+# Metaprogramming II - with hooks
 
 <%= code 'examples/eleven.rb' %>
