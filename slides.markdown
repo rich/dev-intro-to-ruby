@@ -1,5 +1,7 @@
 # A developer's introduction to Ruby and Rails
 
+## by Rich Cavanaugh
+
 # Low ceremony syntax and semantics
 
 - Optional parenthesis
@@ -25,6 +27,10 @@ More traditional methods of looping are available but are not idiomatic Ruby.
 # Everything is an object
 
 <%= code 'examples/four.rb' %>
+
+# Blocks as objects
+
+<%= code 'examples/three-four.rb' %>
 
 # Almost everything is a method call
 
@@ -60,8 +66,12 @@ A basic implementation of attr\_accessor is trival.
 
 # Metaprogramming II - with hooks
 
+You have complete control. You can add instance variable, methods and class methods.
+
 <%= code 'examples/eleven.rb' %>
 
 # Metaprogramming III - further abstraction
+
+You can even provide a simple API to add the functionality for you.
 
 <%= code 'examples/twelve.rb' %>
