@@ -4,7 +4,7 @@ class Vehicle
   def initialize
     @doors = 2
     @wheels = 4
-  end
+  end  
 end
 
 v = Vehicle.new
