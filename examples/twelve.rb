@@ -25,6 +25,6 @@ class Toyota < VehicleBase
 end
 
 c = Toyota.coupe
-puts c.wheels # => 4
-puts c.doors # => 2
+puts c.wheels     # => 4
+puts c.doors      # => 2
 puts c.class.name

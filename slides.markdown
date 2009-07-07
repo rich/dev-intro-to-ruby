@@ -1,6 +1,30 @@
-# A developer's introduction to Ruby and Rails
+# A developer's introduction to Ruby
 
 ## by Rich Cavanaugh
+
+# Intro - An ActiveRecord (Rails) model
+
+<%= code 'examples/intro-rails-model.rb' %>
+
+# Intro - A Rails Controller
+
+<%= code 'examples/intro-rails-controller.rb' %>
+
+# Intro - Lightweight Ruby Web - Sinatra
+
+<%= code 'examples/intro-sinatra.rb' %>
+
+# Not today
+
+## This talk is about what makes those things possible: ruby.
+
+# Basics - Symbols
+
+<%= code 'examples/basics-symbols.rb' %>
+
+# Basics - Literals
+
+<%= code 'examples/basics-literals.rb' %>
 
 # Low ceremony syntax and semantics
 
@@ -58,19 +82,19 @@ Everything is a method call. #attr\_accessor simply writes methods for us.
 
 <%= code 'examples/nine-b.rb' %>
 
-# Metaprogramming I
+# Over the cliff - Metaprogramming I
 
 A basic implementation of attr\_accessor is trival.
 
 <%= code 'examples/ten.rb' %>
 
-# Metaprogramming II - with hooks
+# Over the cliff - Metaprogramming II - with hooks
 
 You have complete control. You can add instance variable, methods and class methods.
 
 <%= code 'examples/eleven.rb' %>
 
-# Metaprogramming III - further abstraction
+# Over the cliff - Metaprogramming III - further abstraction
 
 You can even provide a simple API to add the functionality for you.
 

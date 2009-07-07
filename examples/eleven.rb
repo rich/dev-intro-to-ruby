@@ -23,6 +23,6 @@ class Toyota
 end
 
 c = Toyota.coupe
-puts c.wheels # => 4
-puts c.doors # => 2
-puts c.go! # => I'm going.
+puts c.wheels   # => 4
+puts c.doors    # => 2
+puts c.go!      # => I'm going.

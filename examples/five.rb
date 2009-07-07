@@ -1,6 +1,6 @@
-1.+ 2 # => 3
+1.+ 2   # => 3
 
-10./ 2 # => 5
+10./ 2  # => 5
 
 class Liar
   def initialize(number)

@@ -6,12 +6,12 @@ end
 # => Hello
 # => Hello
 
-puts [].size # => 0
+puts [].size                  # => 0
 
 def a_method(arg); end
 
-puts method(:a_method).arity # => 1
+puts method(:a_method).arity  # => 1
 
 class Mine; end
 
-puts Mine.name # => Mine
+puts Mine.name                # => Mine

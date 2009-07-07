@@ -9,8 +9,8 @@ end
 
 v = Vehicle.new
 
-puts v.wheels # => 4
+puts v.wheels                           # => 4
 
-puts v.doors # => NoMethodError
+puts v.doors                            # => NoMethodError
 
-puts v.instance_variable_get("@doors") # => 2
+puts v.instance_variable_get("@doors")  # => 2
