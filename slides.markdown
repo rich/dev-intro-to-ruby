@@ -1,3 +1,5 @@
+title: Intro to Ruby
+
 # A developer's introduction to Ruby
 
 ## by Rich Cavanaugh
